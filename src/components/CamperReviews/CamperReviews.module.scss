@@ -1,0 +1,11 @@
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+  max-height: 580px;
+  overflow-y: auto;
+}
+
+.emptyBox {
+  text-align: center;
+}

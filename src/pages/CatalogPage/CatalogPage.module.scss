@@ -1,0 +1,13 @@
+.catalogContainer {
+  display: flex;
+  gap: 4rem;
+  padding: 3rem 0;
+}
+
+.filtersContainer {
+  flex: 0 0 auto;
+}
+
+.listContainer {
+  flex-grow: 1;
+}

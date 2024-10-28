@@ -1,0 +1,17 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+}
+
+.emptyList {
+	padding: 1rem;
+	text-align: center;
+	color: $gray;
+}

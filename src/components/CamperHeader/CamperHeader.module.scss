@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.name,
+.price {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.subInfo {
+  flex: 0 0 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.rating,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: $primary-color;
+
+  & svg {
+    flex: 0 0 16px;
+  }
+}
+
+.star {
+  color: $gold;
+}
+
+.priceSection {
+  margin: 1rem 0 1.5rem;
+}
+
+.priceSectionCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.favoriteIconActive {
+  color: $active-color;
+}

@@ -1,0 +1,26 @@
+.formGroup {
+	margin-bottom: 1rem;
+	
+	&> div {
+		width: 100%;
+	}
+}
+
+.input {
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 1.125rem;
+	line-height: 1.5;
+	background-color: $input-color;
+	border-radius: 12px;
+
+	&::placeholder {
+		color: $gray;
+	}
+}
+
+.error {
+	font-size: 0.825rem;
+	color: $accent-color;
+}

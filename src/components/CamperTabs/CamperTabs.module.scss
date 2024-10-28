@@ -1,0 +1,45 @@
+.tabs {
+	padding: 2.75rem 0;
+}
+
+.tabSwitcher {
+  display: flex;
+	gap: 2rem;
+  border-bottom: $border; 
+	margin-bottom: 2.75rem;
+}
+
+.tab {
+	position: relative;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -2.5px;
+		width: 0;
+		height: 5px;
+		background-color: $active-color; 
+    transition: width 0.3s ease, left 0.3s ease;
+		opacity: 0;
+	}
+}
+
+.active {
+	&::after {
+		width: 100%;
+    opacity: 1
+	}
+}
+
+.tabContent {
+	display: flex;
+	gap: 2rem;
+}
+
+.tabContentSide {
+	flex: 1 1;
+}

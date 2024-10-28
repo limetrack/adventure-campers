@@ -1,0 +1,36 @@
+.formField {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: $input-color;
+	border-radius: 12px;
+	width: 100%;
+}
+
+.label {
+	display: inline-block;
+	color: $gray;
+	margin-bottom: 0.5rem;
+}
+
+.inputAdornment {
+	position: absolute;
+	left: 1.25rem;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+}
+
+.input {
+	border: none;
+	outline: none;
+	background: transparent;
+	width: 100%;
+	padding: 1rem 1.25rem;
+	line-height: 1.5;
+	padding-left: 3rem;
+
+	&::placeholder {
+		color: $gray;
+	}
+}

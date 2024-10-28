@@ -1,0 +1,25 @@
+.formContainer {
+  border: $border;
+  border-radius: 10px;
+  padding: 2.75rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: $gray;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.submitButton {
+  margin: 0.5rem auto 0;
+}

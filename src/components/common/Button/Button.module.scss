@@ -1,0 +1,53 @@
+button {
+  cursor: pointer;
+  border: 0;
+
+  &:focus,
+  &:focus-within {
+    outline: none;
+  }
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link,
+.outlined,
+.filled {
+  padding: 1rem 3.2rem;
+  border-radius: 200px;
+}
+
+.link,
+.filled {
+  color: $white;
+  background-color: $accent-color;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $active-color;
+  }
+}
+
+.outlined {
+	border: $border;
+  transition: border-color 0.3s ease;
+	background-color: transparent;
+
+	&:hover {
+    border-color: $active-color;
+  }
+}
+
+.text {
+	color: $primary-color;
+	background-color: transparent;
+	padding: 0;
+  transition: color 0.3s ease;
+
+	&:hover {
+		color: $active-color;
+	}
+}

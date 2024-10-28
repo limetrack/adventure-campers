@@ -1,0 +1,36 @@
+$logo-width: 136px;
+
+.appBar {
+	background-color: $input-color;
+	box-shadow: 1;
+	height: $header-height;
+}
+
+.toolbar {
+	display: flex;
+	gap: 1rem;
+}
+
+.logo {
+	width: $logo-width;
+	padding: 1.75rem 0;
+}
+
+.navigation {
+	flex-grow: 1;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	padding-right: $logo-width;
+}
+
+.navLink {
+  text-decoration: none;
+  color: $primary-color;
+  line-height: 1.5;
+	padding: 1.5rem 0;
+}
+
+.navLinkActive {
+  color: $active-color;
+}

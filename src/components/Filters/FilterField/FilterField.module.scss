@@ -1,0 +1,40 @@
+.filterField {
+  display: inline-block;
+  position: relative;
+  padding: 0 1rem;
+  text-align: center;
+  border: $border;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 7rem;
+	height: 6rem;
+
+  &:hover {
+    border-color: $accent-color;
+  }
+  
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+.checked {
+  border-color: $active-color;
+}
+
+.iconContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	height: 100%;
+
+	img {
+		width: 32px;
+		height: 32px;
+	}
+}
